@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+
+body {
+    background: #fff url(/source/files/gradient_raznotsvetnyj_abstraktsiia_204077_3840x2400.jpg) center center/cover no-repeat;
+}
+
+
+
+/* header */
+
+
+.nav-link {
+    color: rgb(164, 98, 230);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.navbar-toggler {
+    border-color: rgb(164, 98, 230);
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.form-control {
+    border-color: rgb(164, 98, 230);
+}
+
+.card {
+    font-family: Roboto, serif;
+}
+
+
+/* section */
+
+
+.navbar-nav .nav-link.active {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-brand img {
+    width: 7em;
+    border-radius: 5%;
+}
+
+.sidebar h2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.sidebar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 1em;
+}
+
+.slide-text {
+    font-family: Roboto, serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+@media(max-width: 600px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+/* footer  */
+
+.bottomborder {
+    border-top: solid;
+    border-width: 0.5px;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding-top: 1em;
+    font-family: Roboto, serif;
+}
